@@ -6,7 +6,7 @@ Fellowship Dates: 06/03 \- 08/23
 
 ## Background
 
-The Pelican Platform plays a pivotal role in enabling researchers to seamlessly deploy and manage their data across a federated network. At the core of this platform lies the Origin service, a critical component that ensures data accessibility across the federation. The stability and performance of the Origin service are vital; any disruptions or failures could render the data inaccessible, undermining the very purpose of the federation. Consequently, maintaining a robust monitoring framework for the Origin service is not just necessary but essential for the continued success of data federation efforts. Understanding the health and performance metrics of the Origin service is crucial for administrators and users alike who rely on this data for their scientific and research endeavors.
+The [Pelican Platform](https://pelicanplatform.org) plays a pivotal role in enabling researchers to seamlessly deploy and manage their data across a federated network. At the core of this platform lies the Origin service, a critical component that ensures data accessibility across the federation. The stability and performance of the Origin service are vital; any disruptions or failures could render the data inaccessible, undermining the very purpose of the federation. Consequently, maintaining a robust monitoring framework for the Origin service is not just necessary but essential for the continued success of data federation efforts. Understanding the health and performance metrics of the Origin service is crucial for administrators and users alike who rely on this data for their scientific and research endeavors.
 
 ## Project Description
 
@@ -16,9 +16,11 @@ The primary objective of this project was to elevate the monitoring capabilities
 
 The project culminated in the development of a new Grafana dashboard tailored specifically for the Origin service, accompanied by several newly created metrics that offer deeper insights into the system's performance. The design and implementation of the dashboard were heavily influenced by feedback gathered through a user study conducted with system administrators from CHTC and OSG. This iterative process ensured that the final product was not only technically sound but also user-centric, addressing the real-world needs of those who manage and rely on the Pelican Platform. The introduction of these new metrics has significantly enhanced the transparency and observability of the Origin service, enabling administrators to detect issues earlier and make more informed decisions.
 
-## Shortcomings and Limitations
+I also gave a lightning talk at [HTC24](https://agenda.hep.wisc.edu/event/2175/). You can watch it here.
+[![My lightining talk](https://img.youtube.com/vi/EeFGRD29fSw/0.jpg)](https://youtu.be/EeFGRD29fSw?si=EIt5mC7xxv8eQZ31&t=972)
 
-Unfortunately there were a few shortcomings during the fellowship. During my first day, my project had been adjusted without any notification prior. This had been a bit jarring but not a huge deal. The original plan was to use ElasticSearch and store data for further analysis, build out notifications, along with the new metrics and dashboard. I understand that it would have been too much for the short time but it was jarring nonetheless. The remainder of the fellowship went quite well. After HTC24, Haoming went on vacation for 2 weeks and had left me a list of work to do. This was fine but it required pacing such that I would fill up the time because there was limited communication to develop new plans if there was remaining time. After Haoming’s vacation, he had announced that he would be leaving CHTC by the end of the week. At this point, my momentum had slowed. For the remainder of the fellowship most of my efforts were focused on XRootD and implementing metrics at the HTTP level. This was challenging because my C++ knowledge wasn’t the sharpest and I had to figure out where to look to get started. Unfortunately, lots of XRootD is poorly documented, so this process took longer than anticipated. Due to this, the metric I had been planning to develop has remained unfinished.
+
+Here is a [link](https://github.com/PelicanPlatform/pelican/pulls?q=is%3Apr+is%3Aclosed+author%3Apatrickbrophy) to all my contributions to the Pelican Platform.
 
 ## Recommendations for Next Phase of Project
 
