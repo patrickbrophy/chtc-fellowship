@@ -30,8 +30,8 @@ Throughout the fellowship I’ve learned lessons about engineering, design, and 
 
 ## Project Material Links and Descriptions
 
-Pelican \- [https://pelicanplatform.org](https://pelicanplatform.org/)  
-My Fork of Pelican \- [https://github.com/patrickbrophy/pelican](https://github.com/patrickbrophy/pelican)
-Prometheus \- [https://prometheus.io/](https://prometheus.io/)  
-Grafana \- [https://grafana.com/](https://grafana.com/)  
-XRootD \- [https://xrootd.slac.stanford.edu/index.html](https://xrootd.slac.stanford.edu/index.html)
+- [Pelican](https://pelicanplatform.org/)  
+- [My Fork of Pelican](https://github.com/patrickbrophy/pelican/)
+- [Prometheus](https://prometheus.io/)  
+- [Grafana](https://grafana.com/)  
+- [XRootD](https://xrootd.slac.stanford.edu/index.html)
